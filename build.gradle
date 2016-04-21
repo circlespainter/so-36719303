@@ -58,8 +58,8 @@ applicationDefaultJvmArgs = [
     "-javaagent:${configurations.quasar.singleFile}" // =v, =d
 ]
 
-mainClassName = 'co.paralleluniverse.kotlin.actors1.PingPongKt'
-// mainClassName = 'co.paralleluniverse.kotlin.actors2.PingPongWithDeferKt'
+// mainClassName = 'co.paralleluniverse.kotlin.actors1.PingPongKt'
+mainClassName = 'co.paralleluniverse.kotlin.actors2.PingPongWithDeferKt'
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.12'
